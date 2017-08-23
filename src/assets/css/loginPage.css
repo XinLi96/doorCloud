@@ -29,6 +29,7 @@
     color: #2385c0;
     list-style: none;
     text-decoration: none;
+    font-family: "微软雅黑";
 }
 .download img{
     margin-bottom: -5px;
@@ -54,4 +55,49 @@
     font-weight: bold;
     padding-top: 70px;
     padding-left: 143px;
+}
+.name-pass{
+    padding-left: 43px;
+    padding-top: 44px;
+}
+.user-name{
+    width: 280px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 50px;
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+}
+.user-name input{
+    height: 20px;
+    width: 200px;
+    border: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    outline:none;   
+}
+.user-name img{
+    margin-left: 18px;
+    margin-bottom: -3px;
+}
+.user-pass{
+    width: 280px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 50px;
+    margin-top: 22px;
+}
+.user-pass input{
+    height: 20px;
+    width: 200px;
+    border: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    outline:none;
+}
+.user-pass img{
+    margin-left: 18px;
+    margin-bottom: -5px;
 }

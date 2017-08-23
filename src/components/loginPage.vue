@@ -14,6 +14,18 @@
                 <div class="login-head">
                     账户登录
                 </div>
+                <div class="name-pass">
+                    <form action="">
+                        <div class="user-name">
+                            <img src="../assets/img/666_03.png" alt="">
+                            <input type="text" placeholder="请输入用户名">
+                        </div>
+                        <div class="user-pass">
+                            <img src="../assets/img/666_07.png" alt="">
+                            <input type="text" placeholder="请输入密码">
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </div>
