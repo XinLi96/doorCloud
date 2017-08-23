@@ -1,8 +1,7 @@
-<style src="@/assets/css/mainPage.css"></style>
+<!--<style src="@/assets/css/mainPage.css"></style>-->
+<style src="@/assets/css/loginPage.css"></style>
 <template>
-  <div id="app">
     <router-view></router-view>
-  </div>
 </template>
 
 <script>

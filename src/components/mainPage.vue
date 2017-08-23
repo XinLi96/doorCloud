@@ -427,6 +427,20 @@ export default {
     return {
       show: true
     }
+  },
+  created () {
+//    this.$http.get('http://test.300.cn/api-platform/home/member/getIndexMemberInfo').then(response => {
+//
+//        // get body data
+//
+//    }, response => {
+//        // error callback
+//    })
+    this.$api('index.getIndexInfo', {}).then(function (response) {
+
+    }, function () {
+
+    })
   }
 }
 </script>
