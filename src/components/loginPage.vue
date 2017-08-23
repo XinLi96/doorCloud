@@ -15,7 +15,7 @@
                     账户登录
                 </div>
                 <div class="name-pass">
-                    <form action="">
+                    <form action="" method="">
                         <div class="user-name">
                             <img src="../assets/img/666_03.png" alt="">
                             <input type="text" placeholder="请输入用户名">
@@ -23,6 +23,9 @@
                         <div class="user-pass">
                             <img src="../assets/img/666_07.png" alt="">
                             <input type="text" placeholder="请输入密码">
+                        </div>
+                        <div class="btn-submit">
+                            <input type="submit" value="登录">
                         </div>
                     </form>
                 </div>
